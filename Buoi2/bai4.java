@@ -49,5 +49,15 @@ public class bai4 {
         } else {
             System.out.println("phuong trinh vo nghiem!");
         }
+
+        
+        if ((a == 0) && (b == 0) && (c != 0)) {
+            System.out.println("phuong trinh vo nghiem");
+        }
+
+        if ((a == 0) && (b == 0) && (c == 0)) {
+            System.out.println("phuong trinh vo so nghiem");
+        }
     }
+
 }
